@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <h1>Command Tower</h1> 
       <DeckInput onDeckSubmit={handleDeckSubmit} /> 
+      <div>After game recap</div>
       <CardGallery cards={cards} /> 
     </div>
   );
