@@ -16,9 +16,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Command Tower</h1> 
+      <h1>Command Tower MVP</h1> 
       <DeckInput onDeckSubmit={handleDeckSubmit} /> 
-      <div>After game recap</div>
+      <div>After game recap: Select the cards played this game and rate their perfomence. Card performance will be compared to earlier games.</div>
       <CardGallery cards={cards} /> 
     </div>
   );

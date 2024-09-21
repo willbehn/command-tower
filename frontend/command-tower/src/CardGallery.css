@@ -40,10 +40,9 @@
 .x-button {
   background: #e66f6f;
   color: white;
-  font-size: 24px;
+  font-size: 16px;
   border: none;
-  border-radius: 50%;
-  width: 40px;
+  width: 100px;
   height: 40px;
   cursor: pointer;
 }
@@ -51,4 +50,10 @@
 
 .faded img {
   opacity: 0.3; 
+}
+
+
+.stars {
+  color: yellow;
+  cursor: pointer;
 }
